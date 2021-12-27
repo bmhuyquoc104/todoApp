@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppFunctionOption">
+
+
+    <Button
+        android:id="@+id/checkEvent"
+        android:layout_width="246dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="452dp"
+        android:text="@string/checkEvent"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#6B85B0"
+        app:backgroundTint="#ECF1FC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcomeUser"
+        android:layout_width="356dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/roboto"
+        android:keepScreenOn="false"
+
+        android:requiresFadingEdge="horizontal|vertical"
+        android:text="@string/welcomeUser"
+        android:textColor="#9854A4"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addEvent"
+        android:layout_width="246dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="372dp"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="@string/addEvent"
+        android:textColor="#6B85B0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#ECF1FC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="358dp"
+        android:layout_height="259dp"
+        android:layout_marginTop="76dp"
+        android:contentDescription="@string/bg3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="57dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="452dp"
+        android:contentDescription="@string/check"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/check" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="57dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="372dp"
+        android:contentDescription="@string/create"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/create" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="73dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="532dp"
+        android:contentDescription="@string/backmenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backmenu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <!-- MainActivity  -->
+    <string name="app_name">FSmart</string>
+    <string name="timeManagementApp">FSmart Scheduler</string>
+    <string name="userName">Please enter your name</string>
+    <string name="policy">Your information will be collected by us</string>
+    <string name="explore">START YOUR JOURNEY</string>
+    <string name="logoName">TIME IS GOLD</string>
+
+    <!--App Function Option    -->
+    <string name="addEvent">Add New Event</string>
+    <string name="checkEvent">Check Timetable</string>
+    <string name="welcomeUser">Welcome User</string>
+
+    <!--  TimeTableList   -->
+    <string name ="list">Upcoming Events</string>
+
+    <!-- Add More Event   -->
+    <string name ="event">Create Event</string>
+    <string name ="addTitle">Please add title</string>
+    <string name ="Description">Please add description</string>
+    <string name ="time">Please choose time</string>
+    <string name ="addLocation">Please add location</string>
+    <string name ="cancel">Cancel</string>
+    <string name ="save">Save</string>
+    <string name="editButton">Edit</string>
+
+    <string name="id">0</string>
+    <string name="eventId">Event ID :</string>
+    <string name="remove">Remove</string>
+    <string name="date">Please choose date</string>
+    <string name="calendarLabel">Date</string>
+    <string name="timeLabel">Time</string>
+    <string name="home">Back Home</string>
+    <string name="background2">background2</string>
+    <string name="bg3">bg3</string>
+    <string name="backArrow">backArrow</string>
+    <string name="backmenu" />
+    <string name="check" />
+    <string name="create" />
+    <string name="edit" />
+    <string name="delete" />
+    <string name="listTitle">Title:</string>
+    <string name="descriptionList">Description:</string>
+    <string name="dateButton" />
+    <string name="timeButton" />
+    <string name="imageView" />
+    <string name="addOrEdit">Add Event</string>
+</resources>
