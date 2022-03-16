@@ -15,10 +15,10 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     EditText inputName;
     CheckBox checkBox;
-
-    @Overridedsadsadas
+    Textview textview;
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInsasdasdastanceState);
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         inputName = findViewById(R.id.inputName);
         Button start = findViewById(R.id.explore);
