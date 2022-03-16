@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
     EditText inputName;
     CheckBox checkBox;
 
-    @Override
+    @Overridedsadsadas
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInsasdasdastanceState);
         setContentView(R.layout.activity_main);
         inputName = findViewById(R.id.inputName);
         Button start = findViewById(R.id.explore);
